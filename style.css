@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Corpo header pagina */
+
+header {
+    background-color: yellow;
+    height: 270px;
+}
+
+.menu {
+    background-color:green;
+    height: 60px;
+}
+
+/* Corpo centrale pagina/sinistra */
+
+aside {
+    background-color: red;
+    height: 350px;
+    float:left;
+    width: 20%;
+}
+
+section {
+    background-color: blue;
+    height: 150px;
+    float: left;
+    width: 60%;
+}
+
+.index {
+    background-color: blueviolet;
+    height: 200px;
+    float: left;
+    width: 20%;
+}
+
+.destra1 {
+    background-color:black;
+    height: 200px;
+    float: right;
+    width: 20%;
+}
+
+.destra2 {
+    background-color:orange;
+    height: 200px;
+    float: right;
+    width: 20%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
