@@ -1,13 +1,15 @@
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
-    height: 100vh;
 }
 
+body {
+    height: 100%;
+}
 /* Corpo header pagina */
 
 header {
-    background-color: yellow;
+    background-image: url(immagini/sfondo.jpg);
     height: 270px;
 }
 
@@ -16,47 +18,46 @@ header {
     height: 60px;
 }
 
-/* Corpo centrale pagina/sinistra */
+/* corpo centrale pagina */
 
-aside {
-    background-color: red;
+.sinistra  {
+    background-color: aqua;
+    height: 400px;
+    float: left;
+    width: 25%;
+    margin-top: 1%;
+    border-radius: 2%;
+}
+
+.centro {
+    background-color: aquamarine;
     height: 350px;
-    float:left;
-    width: 20%;
+    float: left;
+    width: 45%;
+    margin: 1% 5% 0% 5%;
+    border-radius: 2%;
+
+
 }
 
-section {
-    background-color: blue;
+.destra {
+    float: right;
+    width: 20%;
+    margin-top: 1%;
+}
+
+.layout {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    margin-top: 1%;
+    border-radius: 2%;
+}
+ /* footer */
+.footer {
+    position: absolute;
     height: 150px;
-    float: left;
-    width: 60%;
+    width: 100%;
+    background-color: rebeccapurple;
+    bottom: -60%;
 }
-
-.index {
-    background-color: blueviolet;
-    height: 200px;
-    float: left;
-    width: 20%;
-}
-
-.destra1 {
-    background-color:black;
-    height: 200px;
-    float: right;
-    width: 20%;
-}
-
-.destra2 {
-    background-color:orange;
-    height: 200px;
-    float: right;
-    width: 20%;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-
